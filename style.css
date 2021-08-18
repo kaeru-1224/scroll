@@ -8,7 +8,7 @@ html{
 }
 img{
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 .nav-ul,.fixed> .nav-ul{
     margin-top: 50px;
@@ -77,6 +77,15 @@ article{
 }
 
 .fixed a{
-    color: black;
+    color: black;}
 
+
+@media screen and (max-width:600px) {
+    *{flex-wrap: wrap;}
+    .nav-ul{
+     display: flex;
+     flex-wrap: wrap;
+        width: 100%;
+    }
+    
 }
