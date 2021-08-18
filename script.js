@@ -12,3 +12,4 @@ nav.classList.add("fixed")
 else{nav.classList.remove("fixed")}}
 
 window.addEventListener('scroll',changeHeader)
+

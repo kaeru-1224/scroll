@@ -8,6 +8,7 @@ html{
 }
 img{
     margin-top: 30px;
+    margin-left: 130px;
 }
 .nav-ul,.fixed> .nav-ul{
     margin-top: 50px;
@@ -24,6 +25,7 @@ text-align: center;
 color: white;
 font-size: 30px;
 font-weight: 1000;}
+
 
 .nav-header{
     background-image:url("hero.jpeg");
@@ -49,9 +51,20 @@ font-weight: 1000;}
 .banner-contain>p{
     width: 80%;
  padding: 10px;
+ font-size: larger;
+ font-weight: 500;
+}
+.title{
+    background-color: cornsilk;
+    height: 50px;
+}
+h1{
+ padding: 10px;
+ margin: 10px;
 }
 article{
-    height: 100vh;
+    height: 50vh;
+
 }
 
 .fixed{
